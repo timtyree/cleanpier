@@ -1,0 +1,34 @@
+/*
+Read Me
+
+-Connect to local APIs
+-Pull/Get info from device such as Temp or usage
+-Control devices if controlable
+-Send info into XML file
+-Webhook to Cloud/storage
+-Website shows Dashboard/controls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
