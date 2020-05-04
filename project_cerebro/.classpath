@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="main.java|saveToXML.java|piHole.java|xmlWriter.java" kind="src" output="target/classes" path="src">
+	<classpathentry excluding="main.java|saveToXML.java|piHole.java|xmlWriter.java|not_used_main.java|not_used_saveToXML.java|not_used_xmlWriter.java|not_used_piHole.java" kind="src" output="target/classes" path="src">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
