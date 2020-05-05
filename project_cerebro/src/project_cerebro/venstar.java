@@ -2,11 +2,8 @@
 
 package project_cerebro;
 
-//import java.io.*;
 import com.mashape.unirest.http.*;
-//import java.io.*;
-//import org.json.JSONException;
-//import org.json.JSONObject;
+
 
 public class venstar {
 	
@@ -24,30 +21,28 @@ public class venstar {
 					.asString();
 			
 			System.out.println("Venstar Explorer Mini 2050 Response: " );
-			System.out.println(response.getBody());
-			return getInfo;
-			
+			//System.out.println(response.getBody());
+			//return getInfo;
+			return response.getBody();
 
 	}
 		
-	
+
 	public static String venstarControl()
 	{
-		
-		
-		
+
 		return null;
 		
 	}
-	
 	
 	
 	public static void main(String[] args) throws Exception { 
 		
 		String Q = venstarInfo(args);
 		
-		System.out.println(Q);
+		System.out.println("venstar" + Q);
 		
 		
 	}
+	
 }
