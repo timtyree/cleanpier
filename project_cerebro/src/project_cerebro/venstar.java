@@ -1,19 +1,20 @@
 //Venstar API Call
 
 package project_cerebro;
-import java.io.*;
+
+//import java.io.*;
 import com.mashape.unirest.http.*;
-import java.io.*;
-import org.json.JSONException;
-import org.json.JSONObject;
+//import java.io.*;
+//import org.json.JSONException;
+//import org.json.JSONObject;
 
 public class venstar {
 	
 	public static String venstarInfo(String[] args) throws Exception 
-	{
-			
+	{	
+	
 			String getInfo = "/query/info";
-			try {
+		
 			Unirest.setTimeouts(0, 0);
 	 
 			HttpResponse<String> response = Unirest.get("http://192.168.0.7" + getInfo)
@@ -24,18 +25,27 @@ public class venstar {
 			
 			System.out.println("Venstar Explorer Mini 2050 Response: " );
 			System.out.println(response.getBody());
-			
-			//finally {
-		//		return venstarInfo(args);
+			return getInfo;
 			
 			
+			//return String.valueOf(response.getBody());
 			
+			/*
 			}
 			
 			catch (Exception e) {
 			      e.printStackTrace();
 			}
-			
+			*/
+		
+	}
+	
+	public static void main(String[] args) throws Exception { 
+		
+		String Q = venstarInfo(args);
+		
+		System.out.println(Q);
+		
 		
 	}
 }

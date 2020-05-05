@@ -2,7 +2,6 @@
 
 package project_cerebro;
 
-package project_cerebro;
 import java.io.*;
 import com.mashape.unirest.http.*;
 import java.io.*;
