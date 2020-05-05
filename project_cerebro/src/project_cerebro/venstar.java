@@ -16,7 +16,7 @@ public class venstar {
 			String getInfo = "/query/info";
 		
 			Unirest.setTimeouts(0, 0);
-	 
+
 			HttpResponse<String> response = Unirest.get("http://192.168.0.7" + getInfo)
 					.header("Content-Type", "application/json")
 					.header("Authorization", "")
@@ -27,18 +27,20 @@ public class venstar {
 			System.out.println(response.getBody());
 			return getInfo;
 			
-			
-			//return String.valueOf(response.getBody());
-			
-			/*
-			}
-			
-			catch (Exception e) {
-			      e.printStackTrace();
-			}
-			*/
+
+	}
+		
+	
+	public static String venstarControl()
+	{
+		
+		
+		
+		return null;
 		
 	}
+	
+	
 	
 	public static void main(String[] args) throws Exception { 
 		

@@ -6,7 +6,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 
-public class main {
+public class main extends venstar {
 	
 
 	public main(String[] args) {
