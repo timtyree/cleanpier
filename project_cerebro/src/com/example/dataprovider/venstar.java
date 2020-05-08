@@ -1,11 +1,15 @@
 //Venstar API Call
 
-package project_cerebro;
+package com.example.dataprovider;
+
 
 import com.mashape.unirest.http.*;
 
 
 public class venstar {
+	
+	public static final String DATADIR = "../project_cerebro/data/";  //linked to main.java
+	
 	
 	public static String venstarInfo(String[] args) throws Exception 
 	{	
