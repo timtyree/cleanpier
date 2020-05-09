@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Venstar id="1">
+	<name></name>
+	<mode></mode>
+	<state></state>
+	<activestage></activestage>
+	<fan></fan>
+	<fanstate></fanstate>
+	<tempunits></tempunits>
+	<schedule></schedule>
+	<schedulepart></schedulepart>
+	<holiday></holiday>
+	<override></override>
+	<overridetime></overridetime>
+	<forceunocc></forceunocc>
+	<spacetemp></spacetemp>
+	<heattemp></heattemp>
+	<cooltemp></cooltemp>
+	<cooltempmin></cooltempmin>
+	<cooltempmax></cooltempmax>
+	<heattempmin></heattempmin>
+	<heattempmax></heattempmax>
+	<setpointdelta></setpointdelta>
+	<availablemodes></availablemodes></Venstar>

@@ -10,6 +10,9 @@ APIs and send off data in a single file to a webhook or cloud service.
 Then have controls sent back if we need to change settings from the cloud to device.
 
 
+Currently using DOM process for XML files. Unless new method is suggested.
+
+
 -Todo
 
 -Connect to local APIs

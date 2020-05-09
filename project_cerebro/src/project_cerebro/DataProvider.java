@@ -11,6 +11,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import com.example.dataprovider.venstar;
 import com.example.model.Customer;
 import com.example.utilities.Stopwatch;
 
@@ -24,15 +25,15 @@ public class DataProvider {
 //	This method is just for testing
 	public static void main(String[] args) {
 		Stopwatch watch = new Stopwatch().start("Getting data from JSON");
-		List<Customer> data = getData(SMALL);
+		List<venstar> data = getData(SMALL);
 		System.out.println("Returned: " + data.size());
 		for (int i = 0; i < Math.min(data.size(), 10); i++) {
-			System.out.println((Customer)data.get(i));
+			System.out.println((venstar)data.get(i));
 		}
 		watch.stop();
 	}
 	
-	public static List<Customer> getData(int limit) {
+	public static List<venstar> getData(int limit) {
 		
 //		Decide which file to read from. 
 //		Use 1000 record file for small or medium, 50,000 record file for large
@@ -56,7 +57,7 @@ public class DataProvider {
 		}
 
 //		Create a List to contain typed objects
-		List<Customer> outputData = new ArrayList<>();
+		List<venstar> outputData = new ArrayList<>();
 
 //		Loop through the array up to requested limit,
 //		copy JSON objects to ArrayList of POJO's
